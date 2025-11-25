@@ -1,0 +1,14 @@
+{
+  "name": "tbp-ci-project",
+  "version": "1.0.0",
+  "description": "Tugas CI Pipeline",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0"
+  }
+}
