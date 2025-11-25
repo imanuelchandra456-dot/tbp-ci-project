@@ -22,7 +22,7 @@ jobs:
 
       - name: Run Linter (ESLint)
         run: |
-          chmod +x node_modules/.bin/eslint
+          chmod +x ./node_modules/.bin/eslint
           npx eslint .
 
       - name: Run Unit Tests (Jest)
