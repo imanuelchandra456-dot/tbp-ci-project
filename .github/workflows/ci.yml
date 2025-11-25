@@ -26,4 +26,6 @@ jobs:
           npx eslint .
 
       - name: Run Unit Tests (Jest)
-        run: npm test
+        run: |
+          chmod +x ./node_modules/.bin/jest
+          npx jest
