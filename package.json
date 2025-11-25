@@ -4,7 +4,7 @@
   "description": "Tugas CI Pipeline",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "npx eslint .",
     "test": "jest"
   },
   "devDependencies": {
